@@ -113,6 +113,7 @@
     if (!stored) show(false);
     document.addEventListener('click', function (e) {
       var t = e.target;
+      if (t && t.closest && t.closest('[data-egg]')) { window.location.href = 'https://ameyaholdingsllc.com'; return; }
       var el = t && t.closest ? t.closest('[data-consent-open]') : null;
       if (!el) return;
       e.preventDefault();

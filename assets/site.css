@@ -56,6 +56,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--brand-accent); 
 }
 .site-footer a, .site-footer button { color: var(--brand-text); }
 .site-footer .sep { margin: 0 0.4rem; }
+.site-footer .motto { font-family: var(--font-heading); font-style: italic; color: var(--brand-primary); }
 .link-button { background: none; border: 0; padding: 0; font: inherit; text-decoration: underline; text-underline-offset: 0.2em; cursor: pointer; }
 
 .doc { width: 100%; max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.5rem 3rem; flex: 1; }

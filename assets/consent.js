@@ -5,7 +5,7 @@
   var CLARITY_ID = cfg.clarity || '';
   var PRIVACY_URL = cfg.privacy || '/privacy/';
   var TEXT = 'We use cookies to understand how this site is used (Google Analytics and Microsoft Clarity). Accept?';
-  var KEY = 'ameya-consent';
+  var KEY = 'site-consent';
   var VERSION = 1;
 
   window.dataLayer = window.dataLayer || [];
